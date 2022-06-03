@@ -11,7 +11,6 @@ public class ProdutoResponse {
 
     /* private String observacao; */
 
-    // #region Getters e Setters
     public Integer getId() {
         return id;
     }
@@ -54,5 +53,4 @@ public class ProdutoResponse {
      * }
      */
 
-    // #endregion
 }
