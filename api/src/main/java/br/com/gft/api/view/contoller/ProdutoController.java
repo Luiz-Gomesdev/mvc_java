@@ -1,4 +1,4 @@
-package br.com.luiz.gft.view.contoller;
+package br.com.gft.api.view.contoller;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.luiz.gft.services.ProdutoService;
-import br.com.luiz.gft.shared.ProdutoDTO;
-import br.com.luiz.gft.view.model.ProdutoRequest;
-import br.com.luiz.gft.view.model.ProdutoResponse;
+import br.com.gft.api.services.ProdutoService;
+import br.com.gft.api.shared.ProdutoDTO;
+import br.com.gft.api.view.model.ProdutoRequest;
+import br.com.gft.api.view.model.ProdutoResponse;
 
 @RestController
 @RequestMapping("/api/produtos")

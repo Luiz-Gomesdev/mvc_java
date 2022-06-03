@@ -1,6 +1,16 @@
-package br.com.luiz.gft.view.model;
+package br.com.gft.api.model;
 
-public class ProdutoRequest {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Produto {
+
+    @Id // vai transformar essa coluna em primary key
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
 
     private String nome;
 
@@ -10,7 +20,14 @@ public class ProdutoRequest {
 
     private String observacao;
 
-    // #region Getters e Setters
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getNome() {
         return nome;
@@ -44,5 +61,4 @@ public class ProdutoRequest {
         this.observacao = observacao;
     }
 
-    // #endregion
 }

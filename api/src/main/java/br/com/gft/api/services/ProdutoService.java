@@ -1,4 +1,4 @@
-package br.com.luiz.gft.services;
+package br.com.gft.api.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,10 +8,10 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.luiz.gft.model.Produto;
-import br.com.luiz.gft.model.exception.ResourceNotFoundException;
-import br.com.luiz.gft.repository.ProdutoRepository;
-import br.com.luiz.gft.shared.ProdutoDTO;
+import br.com.gft.api.model.Produto;
+import br.com.gft.api.model.exception.ResourceNotFoundException;
+import br.com.gft.api.repository.ProdutoRepository;
+import br.com.gft.api.shared.ProdutoDTO;
 
 @Service
 public class ProdutoService {

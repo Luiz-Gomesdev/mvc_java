@@ -1,4 +1,4 @@
-package br.com.luiz.gft.model.error;
+package br.com.gft.api.error;
 
 public class ErrorMessage {
 

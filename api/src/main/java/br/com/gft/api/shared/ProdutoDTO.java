@@ -1,4 +1,4 @@
-package br.com.luiz.gft.shared;
+package br.com.gft.api.shared;
 
 public class ProdutoDTO {
 

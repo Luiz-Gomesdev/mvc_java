@@ -1,4 +1,4 @@
-package br.com.luiz.gft.model.exception;
+package br.com.gft.api.model.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,12 +1,12 @@
-package br.com.luiz.gft.handler;
+package br.com.gft.api.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import br.com.luiz.gft.model.error.ErrorMessage;
-import br.com.luiz.gft.model.exception.ResourceNotFoundException;
+import br.com.gft.api.error.ErrorMessage;
+import br.com.gft.api.model.exception.ResourceNotFoundException;
 
 @ControllerAdvice
 public class RestExceptionHamdler {

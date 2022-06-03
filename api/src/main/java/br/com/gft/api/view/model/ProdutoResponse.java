@@ -1,4 +1,4 @@
-package br.com.luiz.gft.view.model;
+package br.com.gft.api.view.model;
 
 public class ProdutoResponse {
     private Integer id;
